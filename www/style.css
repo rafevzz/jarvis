@@ -1,0 +1,100 @@
+h6 {
+    width: 500px; /* Text ko itni jagah do ki wo ek line mein aa sake */
+    position: absolute;
+    top: 550px; /* Logo ke niche adjust karne ke liye */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+#canvasOne {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Taaki particles Jarvis ke piche rahein aur clicks block na karein */
+}
+#JarvisHood {
+    position: fixed;   /* Ye isko normal flow se nikaal dega */
+    top: 50%;          /* Screen ke top se 50% niche */
+    left: 50%;         /* Screen ke left se 50% aage */
+    transform: translate(-50%, -50%); /* Khud ko center karne ke liye compensate karega */
+    z-index: 999;      /* Sabse upar dikhega */
+}
+body{
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.square{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.square span:nth-child(1){
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+   background-image: radial-gradient(#6b72ff00 50%, #000dff3b 40%);
+   box-shadow: 0 0 50px rgb(25, 0, 225), inset 0 0 50px rgb(25, 0, 225);
+   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+   transition: 0.5s;
+   animation: animate1 6s linear infinite;
+}
+.square span:nth-child(2){
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+   background-image: radial-gradient(#6b72ff00 50%, #000dff3b 40%);
+   box-shadow: 0 0 50px rgb(25, 0, 225), inset 0 0 50px rgb(25, 0, 225);
+   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+   transition: 0.5s;
+   animation: animate2 4s linear infinite;
+}
+.square span:nth-child(3){
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 80%;
+   background-image: radial-gradient(#6b72ff00 50%, #000dff3b 40%);
+   box-shadow: 0 0 50px rgb(25, 0, 225), inset 0 0 50px rgb(25, 0, 225);
+   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+   transition: 0.5s;
+   animation: animate3 8s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
