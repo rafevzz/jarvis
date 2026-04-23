@@ -1,7 +1,7 @@
 h6 {
     width: 500px; /* Text ko itni jagah do ki wo ek line mein aa sake */
     position: absolute;
-    top: 550px; /* Logo ke niche adjust karne ke liye */
+    top: 600px; /* Logo ke niche adjust karne ke liye */
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
