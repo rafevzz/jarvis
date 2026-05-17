@@ -1,0 +1,19 @@
+envjarvis/
+__pycache__/
+*.pyc
+*.db
+
+
+/engine/cookies.json
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Database files (Jarvis ka data local rahe, git par na jaye)
+*.db
+jarvis.db
+
+# Face images and samples (Inhe backup karne ki zaroorat nahi hoti)
+engine/auth/samples/
+*.jpg
+*.png
