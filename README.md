@@ -59,7 +59,8 @@ J.A.R.V.I.S is an advanced automation system designed to bridge the gap between 
 ### 4. Integrated Phone Book
 *(Digital contact management for hands-free communication)*
 <br>
-<img width="959" height="544" alt="Screenshot 2026-07-18 122007" src="https://github.com/user-attachments/assets/c36f7981-6678-4ff4-8c31-48d87854de87" />
+<img width="959" height="544" alt="Screenshot 2026-07-18 122007" src="https://github.com/user-attachments/assets/d70b8fd4-2d97-4a4a-a46e-4b0b58d7446e" />
+
 
 
 ## 🎯 Conclusion
