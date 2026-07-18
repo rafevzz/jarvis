@@ -29,5 +29,38 @@ J.A.R.V.I.S is an advanced automation system designed to bridge the gap between 
 *   `www/` - Houses the frontend assets (HTML, CSS, JS) for the Eel-based dashboard.
 *   `contacts.csv` - Local database file for Phone Book storage.
 
+## 📸 Project Demo & Screenshots
+
+### 1. Jarvis UI & Live Action
+*(Futuristic web-based dashboard with dynamic Siri-wave animation)*
+<br>
+<img width="1904" height="1062" alt="Recording 2026-07-18 123114" src="https://github.com/user-attachments/assets/c47c9c58-d97a-4c9e-95bc-abbbd287ef8b" />
+
+
+
+---
+
+### 2. Personal Profile Settings
+*(Manage user details and personalize the assistant's context)*
+<br>
+<img width="959" height="538" alt="Screenshot 2026-07-18 121950" src="https://github.com/user-attachments/assets/cde45617-4649-40bb-bd3b-325a566c0a68" />
+
+
+---
+
+### 3. Custom System Commands
+*(Add, update, or remove custom paths for web and system automation)*
+<br>
+<img width="959" height="547" alt="Screenshot 2026-07-18 121957" src="https://github.com/user-attachments/assets/db26b59c-a539-48c3-99d9-f2e751fa7ac4" />
+
+
+---
+
+### 4. Integrated Phone Book
+*(Digital contact management for hands-free communication)*
+<br>
+<img width="959" height="544" alt="Screenshot 2026-07-18 122007" src="https://github.com/user-attachments/assets/c36f7981-6678-4ff4-8c31-48d87854de87" />
+
+
 ## 🎯 Conclusion
 By combining modular software architecture with intelligent automation, J.A.R.V.I.S demonstrates the immense potential of AI in enhancing productivity and providing a secure, hands-free, and futuristic desktop experience.
